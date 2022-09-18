@@ -5,32 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta description="Wonder Bocks est un groupe de musique rock originaire du Finistère">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>Wonder Bocks</title>
 </head>
 <body>
     <!--Start header-->
     <header>
-        <img src="images/logo.webp" alt="logo" width="75" height="75">
-        <nav>
-            <ul class="navbar">
-                <li><a href="#">Le groupe</a></li>
-                <li><a href="#">Les concerts</a></li>
-                <li><a href="#">Ecouter notre musique</a></li>
-                <li><a href="#">S'inscrire à la Newsletter</a></li>
-            </ul>
-        </nav>
+        <img class="logo" src="images/logo.webp" alt="logo">
     </header>
+        
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">Le groupe</a></li>
+            <li><a href="#">Les concerts</a></li>
+            <li><a href="#">Ecouter notre musique</a></li>
+            <li><a href="#">S'inscrire à la Newsletter</a></li>
+        </ul>
+    </nav> 
+        
+    <div class="burger">
+        <img src="images/icons8-menu-32(1).png">
+    </div>
     <!--End header-->
 
     <!--Start Main-->
-    <main>
+    <main class="content">
+        <h1>WonderBocks</h1>
+
         <ul>
             <li>
                 <div class="card-member-image">
-                    <img src="images/prairie-dog-1470659_640.jpg" alt="photo">
+                    <img class="photo-Member" src="images/prairie-dog-1470659_640.jpg" alt="photo">
                     <ul class="card-member-information">
-                        <li class="card-member-name"></li>
-                        <li class="card-member-instrument"></li>
+                        <li class="card-member-name">Greg</li>
+                        <li class="card-member-instrument">Guitare - Voix</li>
                     </ul>
                 </div>
                 <p class="card-member-speech">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, alias perspiciatis? Cupiditate dolore animi architecto sit fugiat sapiente ex distinctio, est nostrum ab. Enim, adipisci fugiat itaque voluptatum perspiciatis ipsa?</p>
@@ -39,10 +48,10 @@
         <ul>
             <li>
                 <div class="card-member-image">
-                    <img src="images/minions-guitar-3102083_640.jpg" alt="photo">
+                    <img class="photo-Member" src="images/minions-guitar-3102083_640.jpg" alt="photo">
                     <ul class="card-member-information">
-                        <li class="card-member-name"></li>
-                        <li class="card-member-instrument"></li>
+                        <li class="card-member-name">Xavier</li>
+                        <li class="card-member-instrument">Guitare</li>
                     </ul>
                 </div>
                 <p class="card-member-speech">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, alias perspiciatis? Cupiditate dolore animi architecto sit fugiat sapiente ex distinctio, est nostrum ab. Enim, adipisci fugiat itaque voluptatum perspiciatis ipsa?</p>
@@ -51,10 +60,10 @@
         <ul>
             <li>
                 <div class="card-member-image">
-                    <img src="images/bass-guitar-1841186_640.jpg" alt="photo">
+                    <img class="photo-Member" src="images/bass-guitar-1841186_640.jpg" alt="photo">
                     <ul class="card-member-information">
-                        <li class="card-member-name"></li>
-                        <li class="card-member-instrument"></li>
+                        <li class="card-member-name">Anthony</li>
+                        <li class="card-member-instrument">Basse</li>
                     </ul>
                 </div>
                 <p class="card-member-speech">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, alias perspiciatis? Cupiditate dolore animi architecto sit fugiat sapiente ex distinctio, est nostrum ab. Enim, adipisci fugiat itaque voluptatum perspiciatis ipsa?</p>
@@ -63,10 +72,10 @@
         <ul>
             <li>
                 <div class="card-member-image">
-                    <img src="images/music-1378224_640.jpg" alt="photo">
+                    <img class="photo-Member" src="images/music-1378224_640.jpg" alt="photo">
                     <ul class="card-member-information">
-                        <li class="card-member-name"></li>
-                        <li class="card-member-instrument"></li>
+                        <li class="card-member-name">Marc</li>
+                        <li class="card-member-instrument">Batterie</li>
                     </ul>
                 </div>
                 <p class="card-member-speech">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, alias perspiciatis? Cupiditate dolore animi architecto sit fugiat sapiente ex distinctio, est nostrum ab. Enim, adipisci fugiat itaque voluptatum perspiciatis ipsa?</p>
@@ -78,10 +87,16 @@
     <!--Start footer-->
     <footer>
         <!--liens images-->
-        Image par <a href="https://pixabay.com/fr/users/alexas_fotos-686414/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3102083">Alexa</a> de <a href="https://pixabay.com/fr//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3102083">Pixabay</a>
-        Image par <a href="https://pixabay.com/fr/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1841186">Pexels</a> de <a href="https://pixabay.com/fr//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1841186">Pixabay</a>
-        Image par <a href="https://pixabay.com/fr/users/jackmac34-483877/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1378224">jacqueline macou</a> de <a href="https://pixabay.com/fr//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1378224">Pixabay</a>
+        <p>Image par <a href="https://pixabay.com/fr/users/alexas_fotos-686414/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3102083">Alexa</a> de <a href="https://pixabay.com/fr//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3102083">Pixabay</a></p>
+        <p>Image par <a href="https://pixabay.com/fr/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1841186">Pexels</a> de <a href="https://pixabay.com/fr//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1841186">Pixabay</a></p>
+        <p>Image par <a href="https://pixabay.com/fr/users/jackmac34-483877/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1378224">jacqueline macou</a> de <a href="https://pixabay.com/fr//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1378224">Pixabay</a></p>
+        <p>Icône par <a target="_blank" href="https://icons8.com/icon/Bl6pjW4L5nCY/menu">Menu</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+        
+        <p>Morgane Mahé @ 2022</p>
     </footer>
     <!--End footer-->
+
+    <!-- JS script-->
+    <script src="app.js"></script>
 </body>
 </html>
